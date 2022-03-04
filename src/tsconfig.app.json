@@ -1,12 +1,12 @@
 {
   "extends": "../tsconfig.json",
   "compilerOptions": {
-    "outDir": "../../dist/out-tsc",
+    "outDir": "../dist/out-tsc",
     "types": [],
     "allowJs": true,
     "target": "ES2019"
   },
-  "files": ["src/main.ts", "src/polyfills.ts"],
+  "files": ["./main.ts", "./polyfills.ts"],
   "include": ["src/**/*.d.ts"],
   "exclude": ["**/*.test.ts", "**/*.spec.ts"]
 }
